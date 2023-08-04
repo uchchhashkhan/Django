@@ -1,13 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>Blogs</title>
   </head>
 
   <body>
-        <h1>Blogs</h1>  
+        <p>Blogs</p>  
+        <img src="{% static 'images/st.jpg' %}" alt="logo" />
   </body>
-</html>
+</html>   
