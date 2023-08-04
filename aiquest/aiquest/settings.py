@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'machine_learning',
-    'Blogs'
-    'Deep_learing'
-    'Data_analysis'
-    'About_u s'
+    'Blogs',
+    'Deep_learning',
+    'Data_analysis',
+    'About_us',
 ]
 
 MIDDLEWARE = [
