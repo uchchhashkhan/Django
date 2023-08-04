@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML</title>
+  </head>
+
+  <body>
+       <!-- <h1>We are offering {{c}}. There are more than {{tl}} and avaible {{st}} seats. and finally needed for course complete time {{cd}} </h1>
+        <h2> {{c|capfirst}}  </h2>
+        <h2> {{c|length}}  </h2>
+        <h2> {{c|upper}}  </h2>
+
+        {% if st == 40 %}
+        <h1> This is if part </h1>
+        {% elif st == 30 %}
+        <h2> this is elif part </h2>
+        {% else %}
+        <h2> This is else part </h2>
+        {%endif%} -->
+
+        {% for tn in names %}
+        {{forloop.counter}}
+        {{tn}} <br>
+        {% endfor %}
+
+
+
+  </body>
+</html>
