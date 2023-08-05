@@ -1,42 +1,5 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/analysis.css' %}" />
-    <title>Analysis</title>
-  </head>
-  <style>
-    h6{
-      color: black;
-    }
-  </style>
+{% extends 'common_code/base.html' %}
 
+{% block title %} Data Abalysis {% endblock title %}
 
-  <body>
-        <p>this is <mark><i><u>Data Analysis</u></i></mark> platform</p> 
-         <del class="d">300</del> <br>
-         <ins class="i">250</ins>
-        <p>this is <small>Data Analysis</small> platform</p>  
-        <div class="font">
-          <p>
-            (a+b)<sup>2</sup>
-            (a+b)<sub>2</sub>
-          </p>
-          <p>
-            <abbr title="data analysis">dt</abbr>
-          </p>
-          <h1>h1</h1>
-          <h3>h3</h3>
-          <h6>h6</h6>
-          <pre id="hello">
-            hello   this is uchchhash    khan
-          </pre>
-          <p>welcome to <span style="color: blue">studymart</span></p>
-        </div>
-
-
-  </body>
-</html>
+{% block alert %} This is Data analysis page {% endblock alert %}
