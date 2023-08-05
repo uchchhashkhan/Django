@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.margin{
+    height: 500px;
+    width : 500px;
+    border: 50px solid blue;
+    margin: 100px 50px 30px 20px;
+}
+.padding{
+    height: 300px;
+    width : 300px;
+    border: 50px solid rgb(189, 33, 209);
+    margin: 50px 40px 10px 20px;
+    padding: 50px 60px 20px 50px;
+}
+.border{
+    height: 200px;
+    width : 200px;
+    border: 100px solid rgb(199, 29, 17);
+    border-top-color:green;
+    border-right-color: blueviolet;
+    border-left-color: brown;
+    margin-left: 100px;
+    border-radius: 50px 20px; 
+    
+}

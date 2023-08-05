@@ -1,31 +1,18 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/machine.css' %}" />
     <title>ML</title>
   </head>
 
   <body>
-       <!-- <h1>We are offering {{c}}. There are more than {{tl}} and avaible {{st}} seats. and finally needed for course complete time {{cd}} </h1>
-        <h2> {{c|capfirst}}  </h2>
-        <h2> {{c|length}}  </h2>
-        <h2> {{c|upper}}  </h2>
-
-        {% if st == 40 %}
-        <h1> This is if part </h1>
-        {% elif st == 30 %}
-        <h2> this is elif part </h2>
-        {% else %}
-        <h2> This is else part </h2>
-        {%endif%} -->
-
-        {% for tn in names %}
-        {{forloop.counter}}
-        {{tn}} <br>
-        {% endfor %}
-
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
 
 
   </body>
