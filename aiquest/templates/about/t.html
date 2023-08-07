@@ -1,14 +1,32 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/t.css' %}">
     <title>Teacher</title>
 </head>
 <body>
     <h1>{{thr}}</h1>
     {% if thr %}
-    <h1> Teachers Information </h1>
+    <table>
+        <tr>
+            <th> id </th>
+            <th> tid  </th>
+            <th> tname </th>
+            <th> temail </th>
+        </tr>
+        {% for th in thr %}
+        <tr>
+            <th> {{th.id}} </th>
+            <th> {{th.tid }}</th>
+            <th> {{th.tname}} </th>
+            <th> {{th.temail}} </th>
+        </tr>
+        {% endfor %}
+    </table>
     {% else %}
     <h2> Empty DB </h2>
     {% endif %}
