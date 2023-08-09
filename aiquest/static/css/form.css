@@ -1,3 +1,18 @@
 form{
     border: 5px solid blue;
 }
+label{
+    font-size: 25px;
+    color: brown;
+}
+input{
+    height: 20px;
+    width: 400px;
+    background-color: violet;
+    color:black;
+    font-weight: 900;
+
+}
+#id_textarea{
+    background-color: skyblue;
+}
