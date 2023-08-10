@@ -8,7 +8,7 @@ class TeachersRegistration(forms.Form):
     password = forms.CharField(widget=forms.PasswordInput)
     repassword = forms.CharField(widget=forms.PasswordInput)
     textarea = forms.CharField(widget=forms.Textarea)
-    file = forms.CharField(widget=forms.FileInput)
+    file = forms.CharField(widget=forms.FileInput) 
     Checkbox = forms.CharField(widget=forms.CheckboxInput)
     
     
